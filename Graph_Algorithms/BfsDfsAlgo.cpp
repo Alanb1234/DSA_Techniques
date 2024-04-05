@@ -9,6 +9,13 @@ or searching tree or graph data structures. It explores the neighbor nodes at th
 present depth prior to moving on to the nodes at the next depth level.
 */
 
+
+/*
+Depth-First Search (DFS): The key principle of DFS is to explore as far as 
+possible along each branch before backtracking.
+*/
+
+
 /*
 You need two data structures: one to represent the graph and another to implement 
 the queue mechanism that BFS relies on for traversing the graph level by level.
@@ -102,6 +109,10 @@ int main(){
     std::cout << "DFS Tree Traversal: ";
     printTreeDFS(root);
 
+    /* returns:
+    BFS Tree Traversal: A B C D E F G H I J K L M 
+    DFS Tree Traversal: A B F I L G J M C D H K E     
+    */
     
 
     
